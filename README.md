@@ -1,31 +1,19 @@
-# Clustering algorithms
+# 聚类方法汇总
 
-A list of algorithms on clustering.
+常见的聚类方法分类列表及其实践。
 
-## Hierarchical methods
-- BIRCH (Balanced Iterative Reducing and Clustering Using Hierarchies)
-- ROCK (A Hierarchical Clustering Algorithm for Categorical Attributes)
-- Chameleon (A Hierarchical Clustering Algorithm Using Dynamic Modeling)
+传统聚类方法比较：[传送门~](traditional-clustering-methods/traditional-clustering-methods.md)
 
-- [2019/CVPR] FINCH
-
-## Partition-based methods
 - K-means
-- K-means++
-- K-MC2
- Approximate K-Means++ in Sublinear Time
-- AFK-MC2
-Fast and Provably Good Seedings for k-Means
-
-## Density-based methods
+- AP（Affinity Propagation）
+- Mean Shift
+- Spectral Clustering
+- Hierarchical Clustering
+- Birch
 - DBSCAN (Density-Based Spatial Clustering of Applications with Noise)
 - OPTICS (Ordering Points To Identify Clustering Structure)
-
-## Grid-based methods
-- STING (STatistical INformation Grid)
-- CLIQUE (CLustering In QUEst)
-
-## Model-based methods
 - GMM (Gaussian Mixture Models)
-- SOM (Self Organized Maps)
 
+
+扩展方法：
+- FINCH (First Integer Neighbor Clustering Hierarchy)[paper](https://dreamhomes.github.io/posts/202005202124.html);[code](https://github.com/ssarfraz/FINCH-Clustering)
