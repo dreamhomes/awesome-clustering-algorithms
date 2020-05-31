@@ -14,6 +14,10 @@
 - OPTICS (Ordering Points To Identify Clustering Structure)
 - GMM (Gaussian Mixture Models)
 
+Scikit-learn 中不同算法在数据集中对比效果：[传送门~](https://scikit-learn.org/stable/auto_examples/cluster/plot_cluster_comparison.html#sphx-glr-auto-examples-cluster-plot-cluster-comparison-py)
+
 
 扩展方法：
-- FINCH (First Integer Neighbor Clustering Hierarchy)[paper](https://dreamhomes.github.io/posts/202005202124.html);[code](https://github.com/ssarfraz/FINCH-Clustering)
+- FINCH (First Integer Neighbor Clustering Hierarchy)
+  - [paper](https://dreamhomes.github.io/posts/202005202124.html)
+  - [code](https://github.com/ssarfraz/FINCH-Clustering)
